@@ -32,7 +32,7 @@ jobs:
           # Provide Checkmarx URL
           checkmarx_url: https://cxprivatecloud.checkmarx.net/
           # Select a Checkmarx Team
-          team: /CxServer/SP/EMEA
+          team: /CxServer/SP/EMEA/checkmarx.com - 49
           # Provide Checkmarx Username
           checkmarx_username: tomas7470
           # Provide Checkmarx Password
