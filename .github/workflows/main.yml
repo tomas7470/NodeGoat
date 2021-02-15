@@ -48,41 +48,15 @@ jobs:
           # Break build based on Checkmarx findings?
           break_build: false
           # Bug tracker for the scan results.
-          bug_tracker: # optional, default is Sarif
+          bug_tracker: GitHub
           # Incremental Scans?
-          incremental: # optional, default is true
+          incremental: false
           # Additional CLI parameters
           params: # optional, default is 
           # GitHub API Token
           github_token: 7a9aa4148d0d114ddff7327287e22b9da360f0ea
           # Vulnerability Scanners (sast, sca, ast, cxgo)
-          scanners: # default is 
-          # Provide SCA API URL
-          sca_api_url: # optional, default is https://api.scacheckmarx.com
-          # Provide SCA APP URL
-          sca_app_url: # optional, default is https://sca.scacheckmarx.com
-          # Provide SCA Access Control URL
-          sca_access_control_url: # optional, default is https://platform.checkmarx.net
-          # Provide SCA Tenant
-          sca_tenant: # optional, default is 
-          # Provide SCA Username
-          sca_username: # optional, default is 
-          # Provide SCA Password
-          sca_password: # optional, default is 
-          # Provide CxGo Client Secret
-          cxgo_client_secret: # optional, default is 
-          # Provide CxGo API URL
-          cxgo_base_url: # optional, default is https://api.checkmarx.net
-          # Provide CxGo Portal URL
-          cxgo_portal_url: # optional, default is https://cloud.checkmarx.net
-          # Provide AST API URL
-          ast_api_url: # optional, default is 
-          # Provide AST WebApp URL
-          ast_webapp_url: # optional, default is 
-          # Provide AST Client ID
-          ast_client_id: # optional, default is 
-          # Provide AST Client Secret
-          ast_client_secret: # optional, default is 
+          scanners: sast
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
