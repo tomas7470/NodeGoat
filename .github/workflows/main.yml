@@ -46,7 +46,7 @@ jobs:
           # Select a Checkmarx Preset
           preset: # optional, default is Checkmarx Default
           # Break build based on Checkmarx findings?
-          break_build: # optional
+          break_build: false
           # Bug tracker for the scan results.
           bug_tracker: # optional, default is Sarif
           # Incremental Scans?
