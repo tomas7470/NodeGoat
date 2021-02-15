@@ -44,15 +44,13 @@ jobs:
           # Select an Application Name used by downstream bug tracker systems
           app: NodeGoat
           # Select a Checkmarx Preset
-          preset: # optional, default is Checkmarx Default
+          preset: Checkmarx Default
           # Break build based on Checkmarx findings?
           break_build: false
           # Bug tracker for the scan results.
           bug_tracker: GitHub
           # Incremental Scans?
           incremental: false
-          # Additional CLI parameters
-          params: # optional, default is 
           # GitHub API Token
           github_token: 7a9aa4148d0d114ddff7327287e22b9da360f0ea
           # Vulnerability Scanners (sast, sca, ast, cxgo)
