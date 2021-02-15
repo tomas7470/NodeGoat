@@ -42,7 +42,7 @@ jobs:
           # Select a Checkmarx Project
           project: NodeGoat_Tom
           # Select an Application Name used by downstream bug tracker systems
-          app: # optional, default is SampleApp
+          app: NodeGoat
           # Select a Checkmarx Preset
           preset: # optional, default is Checkmarx Default
           # Break build based on Checkmarx findings?
